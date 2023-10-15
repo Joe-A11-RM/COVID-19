@@ -1,0 +1,66 @@
+<DOCTYPE html!>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Covid19</title>
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<header>
+    <!-- NavBar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light ">
+  <a class="navbar-brand" href="index.html">Corona Virus</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Corona Meter</a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="precautionarymeasures.html">Precautionary measures</a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="symptoms.html">Symptoms</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        More
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          
+                 <a class="dropdown-item" href="contact.html">Contact</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+    <!-- Endofnavbar --> 
+</header>   
+<body>
+<div id ="map">
+ <div class="container">
+     <p id="title">Welcome to coronameter</p>
+     <div id class="row">
+     <div id="worldmap" class="col-lg-6 col-md-6">
+<iframe src="https://ourworldindata.org/grapher/total-cases-covid-19?tab=map" width="100%" height="600px"></iframe>
+     </div>
+     <div id="death" class="col-lg-6 col-md-6">
+    <iframe src="https://ourworldindata.org/coronavirus-data-explorer?tab=map&zoomToSelection=true&country=~OWID_WRL&region=World&deathsMetric=true&interval=total&hideControls=true&smoothing=0&pickerMetric=location&pickerSort=asc" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+</div>
+      </div>   
+        </div>
+    </div>
+     <div id="footer">
+        <p>Copyright 2021. All Rights Reserved.</p>
+         </div>              
+<script src="js/jquery-3.5.1.min.js"></script>   
+<script src="js/bootstrap.min.js"></script> 
+
+</body>   
+</html>

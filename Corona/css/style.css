@@ -1,0 +1,263 @@
+.navbar-light .navbar-brand{
+  font-family: sans-serif;
+    font-weight:1000;
+    font-size: 1.4em;
+    background-image: url(../images/corona3.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-left: 45px;
+}
+.navbar-light .navbar-brand:hover{
+    color: rgba(101,56,14,1.00);
+}
+.nav-link{
+    font-family: serif;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+h5{
+    font-family: serif;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+#new{
+    font-family: inherit;
+    font-weight: 300;
+    font-size: 1.3em;
+}
+#about{
+    background-image: linear-gradient(180deg, rgba(194,217,209,1.0) 0%, rgba(79,85,85,1.0) 100%);
+    border-top: solid 15px rgba(93,54,23,1.00);
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+#question{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 2em;
+}
+#brief{
+    text-align: justify;
+    font-family: serif;
+    font-size: 1.3em;
+    color: white;
+}
+.embed-responsive{
+	margin-top: 50px;
+	margin-bottom: 30px;
+    height:400px;
+}
+
+#foot{
+    background-image: linear-gradient(180deg, rgba(79,85,85,1.0) 0%, rgba(194,217,209,1.0) 100%);
+    text-align: center;
+    color:black;
+    height: 50px;
+    padding-top: 10px;
+}
+#title{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 640;
+    padding-top: 15px;
+    font-size: 1.7em;
+    text-shadow: 3px 3px 7.5px rgba(0,0,0,1.00);
+}
+#map{
+    background-image: linear-gradient(180deg, rgba(194,217,209,1.0) 0%, rgba(79,85,85,1.0) 100%);
+padding-bottom: 20px;
+}
+#footer{
+    background-image: linear-gradient(180deg, rgba(79,85,85,1.0) 0%, rgba(194,217,209,1.0) 100%);
+    text-align: center;
+    color:black;
+    height: 50px;
+    padding-top: 10px;
+}
+#worldmap{
+    padding-bottom: 20px;
+  
+}
+#death{
+  
+}
+#h1{
+    font-family: sans-serif;
+    font-weight: 640;
+    padding-top: 15px;
+    font-size: 1.7em;
+    text-align: center;
+    text-shadow: 3px 3px 7.5px rgba(0,0,0,1.00);
+}
+#note{
+    text-align:center;
+    font-family: serif;
+    font-size: 1.3em;
+    color: black;
+}
+blockquote{
+    min-height: 450px;
+}
+#mask{
+    background-image: url(../images/wearing%20mask1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+#washing{
+    background-image: url(../images/washing%20hand2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#alcohol{
+    background-image: url(../images/alchol2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#distance{
+    background-image: url(../images/social%20distance1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#tissue{
+    background-image: url(../images/bin.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#no{
+    background-image: url(../images/no1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.quote{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(151,181,218,0.60);
+    border-top-right-radius: 20px;
+}
+#first{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 1.3em;
+}
+#second{
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 0em;
+}
+.quote:hover #second{
+    font-size: 0.9em;
+}
+#first::after{
+    content: "...";
+}
+.quote:hover #first::after{
+    content: "";
+}
+#measure{
+    background-image: linear-gradient(180deg, rgba(194,217,209,1.0) 0%, rgba(79,85,85,1.0) 100%);
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+#what{
+    text-align: center;
+    font-weight: 550;
+    font-family: sans-serif;
+    font-size: 1.3em;
+    line-height: 1px;
+    padding-top: 10px;
+}
+#tip{
+     text-align: justify;
+    font-family: serif;
+    font-size: 1.1em;
+    color: snow;
+}
+#symptoms{
+    background-image: linear-gradient(180deg, rgba(194,217,209,1.0) 0%, rgba(79,85,85,1.0) 100%);
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+#what{
+    padding-bottom: 15px;
+}
+#fever{
+       background-image: url(../images/fever.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+#cough{
+    background-image: url(../images/cough.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+#aches{
+    background-image: url(../images/aches.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+#breath{
+    background-image: url(../images/breath.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+#nose{
+    background-image: url(../images/runnynose.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+#sore{
+    background-image: url(../images/sore.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+#smell{
+    background-image: url(../images/smell.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+#taste{
+    background-image: url(../images/taste.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#more{
+    font-family: monospace;
+    font-size: 1.5em;
+    color: azure;
+}
+
+#contact{
+     background-image: linear-gradient(180deg, rgba(194,217,209,1.0) 0%, rgba(79,85,85,1.0) 100%);
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    
+}
+
